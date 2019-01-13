@@ -28,26 +28,27 @@ namespace Lab04_TicTacToe.Classes
 		/// Activate the Play of the game
 		/// </summary>
 		/// <returns>Winner</returns>
-		public Player Play()
-		{
+		//public Player Play()
+		//{
 
-			//TODO: Complete this method and utilize the rest of the class structure to play the game.
+  //          //TODO: Complete this method and utilize the rest of the class structure to play the game.
 
-            /*
-             * Complete this method by constructing the logic for the actual playing of Tic Tac Toe. 
-             * 
-             * A few things to get you started:
-            1. A turn consists of a player picking a position on the board with their designated marker. 
-            2. Display the board after every turn to show the most up to date state of the game
-            3. Once a Winner is determined, display the board one final time and return a winner
+  //          /*
+  //           * Complete this method by constructing the logic for the actual playing of Tic Tac Toe. 
+  //           * 
+  //           * A few things to get you started:
+  //          1. A turn consists of a player picking a position on the board with their designated marker. 
+  //          2. Display the board after every turn to show the most up to date state of the game
+  //          3. Once a Winner is determined, display the board one final time and return a winner
 
-            Few additional hints:
-                Be sure to keep track of the number of turns that have been taken to determine if a draw is required
-                and make sure that the game continues while there are unmarked spots on the board. 
+  //          Few additional hints:
+  //              Be sure to keep track of the number of turns that have been taken to determine if a draw is required
+  //              and make sure that the game continues while there are unmarked spots on the board. 
 
-            Use any and all pre-existing methods in this program to help construct the method logic. 
-             */
-		}
+  //          Use any and all pre-existing methods in this program to help construct the method logic. 
+  //           */
+            
+		//}
 
 
 		/// <summary>
