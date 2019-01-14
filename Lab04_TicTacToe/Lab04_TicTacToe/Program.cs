@@ -29,7 +29,7 @@ namespace Lab04_TicTacToe
             }
             catch (Exception)
             {
-                Console.WriteLine("There are no winners. The only winning move is not to play.");
+                Console.WriteLine("There are no winners.\nThe only winning move is not to play.");
             }
             Console.Write("Press any key to exit . . .");
             Console.ReadLine();
