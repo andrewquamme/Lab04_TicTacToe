@@ -31,8 +31,6 @@ namespace Lab04_TicTacToe.Classes
         public Player Play()
         {
 
-            //TODO: Complete this method and utilize the rest of the class structure to play the game.
-
             /*
              * Complete this method by constructing the logic for the actual playing of Tic Tac Toe. 
              * 
@@ -110,7 +108,6 @@ namespace Lab04_TicTacToe.Classes
 				string b = Board.GameBoard[p2.Row, p2.Column];
 				string c = Board.GameBoard[p3.Row, p3.Column];
 
-				// TODO:  Determine a winner has been reached. 
 				// return true if a winner has been reached. 
 
                 if (a == b && b == c)
