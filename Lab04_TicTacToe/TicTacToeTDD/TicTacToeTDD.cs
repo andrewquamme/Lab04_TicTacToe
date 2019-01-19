@@ -92,10 +92,23 @@ namespace TicTacToeTDD
         }
     }
 
-    public class UniqueTest
+    public class AutoGenerateGameBoard
     {
         //One other “unique” test of your own
 
-
+        [Fact]
+        static void TestForAutoGameBoard()
+        {
+            Player p1 = new Player();
+            Player p2 = new Player();
+            Game game = new Game(p1, p2);
+            string[,] expected = new string[,]
+            {
+                {"1", "2", "3"},
+                {"4", "5", "6"},
+                {"7", "8", "9"},
+            };
+            Assert.Equal(expected, game.Board.GameBoard);
+        }
     }
 }
