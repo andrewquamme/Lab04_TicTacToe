@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab04_TicTacToe.Classes
 {
-    class Player
+    public class Player
     {
 		public string Name { get; set; }
 		/// <summary>
@@ -38,7 +38,7 @@ namespace Lab04_TicTacToe.Classes
         /// <summary>
         /// Retrieves coordinates for desired position on board
         /// </summary>
-        /// <param name="position"></param>
+        /// <param name="position">number of desired position</param>
         /// <returns>Position object of coordinates</returns>
 		public static Position PositionForNumber(int position)
 		{
